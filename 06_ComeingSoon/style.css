@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+/* add font 👆*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Playwrite DE Grund", sans-serif;
+}
+
+.container {
+  background: linear-gradient(135deg, #8a2be2, #4169e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.logo {
+  width: 130px;
+  /* height: 100px; */
+  object-fit: contain;
+}
+
+h1 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.4s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #8a2be2;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
